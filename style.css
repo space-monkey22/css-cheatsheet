@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+ 
+}
+div.main{
+    background-image: url(./assests/14e186b38e67e8a28bfeae15b22b4581.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 15%;
+    height:10%;
+    float:right;
+    margin: 0%;
+}
+div.one{
+    
+    padding: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+div.head{
+   
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: aliceblue;
+    
+}
+p.t1{
+   width: 50%;
+   float: left;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   line-height: 1.8;
+   background-color: antiquewhite;
+}
+p.t2{
+    clear:right;
+    text-align: center;
+    text-decoration: underline;
+}
+li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+}
+div.two{
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+section.sibling{
+    background-color: antiquewhite;
+    margin-right: 70%;
+}
+div h3{
+    color: rgb(247, 89, 78);
+}
+div> h3{
+    color: rgb(102, 163, 212);
+}
+h4 ~ h5{
+    color: rgb(190, 110, 76);
+    font-size: 30;
+    
+}
+p.t3{
+    float: right;
+    font-size: large;
+}
